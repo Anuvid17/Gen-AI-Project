@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🚀 ProductIQ  
 ### AI-Powered Product Feedback & Feature Management Platform
 
@@ -97,3 +98,6 @@ docker compose exec backend python manage.py createsuperuser
 ## 📜 License
 
 For educational and learning purposes.
+=======
+
+>>>>>>> 53b843c0f51a6f82ce21fc90f6e8cdaef0dba250
