@@ -50,9 +50,9 @@ Gen-AI-Project/
 │   │   ├── pages/                 # Application pages
 │   │   ├── services/              # API service layers
 │   ├── Dockerfile
+│
 ├── docker-compose.yml             # Multi-container orchestration
-├── README.md                    
-
+└── README.md
 
 ---
 
