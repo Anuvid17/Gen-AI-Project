@@ -106,7 +106,6 @@ http://localhost:8000/admin/
 ---
 
 ##  Dockerized Setup
-=======
 ##  Getting Started
 
 ### Prerequisites
