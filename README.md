@@ -34,25 +34,24 @@ PostgreSQL Database
 
 Gen-AI-Project/
 ├── backend/
-│ ├── core/ # Django project settings
-│ ├── apps/
-│ │ ├── users/ # Authentication & profiles
-│ │ ├── feedback/ # User feedback ingestion
-│ │ ├── features/ # AI-generated product features
-│ │ └── ai_agent/ # AI decision-making engine
-│ ├── manage.py
-│ ├── Dockerfile
-│ └── requirements.txt
+│   ├── core/                      # Django project settings
+│   ├── apps/
+│   │   ├── users/                 # Authentication & profiles
+│   │   ├── feedback/              # User feedback ingestion
+│   │   ├── features/              # AI-generated product features
+│   │   └── ai_agent/              # AI decision-making engine
+│   ├── manage.py
+│   ├── Dockerfile
+│   └── requirements.txt
 │
 ├── frontend/
-│ ├── src/
-│ │ ├── components/
-│ │ ├── pages/
-│ │ ├── services/
-│ │ └── router/
-│ ├── Dockerfile
-├── docker-compose.yml
-├── README.md
+│   ├── src/
+│   │   ├── components/            # Reusable UI components
+│   │   ├── pages/                 # Application pages
+│   │   ├── services/              # API service layers
+│   ├── Dockerfile
+├── docker-compose.yml             # Multi-container orchestration
+├── README.md                    
 
 
 ---
@@ -155,7 +154,6 @@ http://localhost:8000/admin/
 
 ### Run the Project
 ```bash
-<<<<<<< HEAD
 docker compose up --build
 =======
 docker compose up --build
