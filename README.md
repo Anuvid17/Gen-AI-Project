@@ -116,8 +116,6 @@ http://localhost:8000/admin/
 ### Run the Project
 ```bash
 docker compose up --build
-=======
-docker compose up --build
 ```
 
 ### Apply Migrations
