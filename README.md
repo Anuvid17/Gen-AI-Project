@@ -17,45 +17,6 @@ ProductIQ is a full-stack **Generative AI–powered product intelligence system*
 
 ---
 
-##  High-Level Architecture
-
-React (Vite + Tailwind)
-↓
-Django REST Framework API
-↓
-AI Agent Engine
-↓
-PostgreSQL Database
-
-
----
-
-##  Final Project Structure
-
-Gen-AI-Project/
-├── backend/
-│   ├── core/                      # Django project settings
-│   ├── apps/
-│   │   ├── users/                 # Authentication & profiles
-│   │   ├── feedback/              # User feedback ingestion
-│   │   ├── features/              # AI-generated product features
-│   │   └── ai_agent/              # AI decision-making engine
-│   ├── manage.py
-│   ├── Dockerfile
-│   └── requirements.txt
-│
-├── frontend/
-│   ├── src/
-│   │   ├── components/            # Reusable UI components
-│   │   ├── pages/                 # Application pages
-│   │   ├── services/              # API service layers
-│   ├── Dockerfile
-│
-├── docker-compose.yml             # Multi-container orchestration
-└── README.md
-
----
-
 ##  AI Agent Design & Purpose
 
 The AI Agent is the **core intelligence layer** of ProductIQ.  
